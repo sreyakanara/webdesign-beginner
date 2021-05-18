@@ -1,0 +1,89 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: hsl(185, 75%, 39%);
+
+}
+
+
+.card{
+    background-color: oldlace;
+    margin:auto;
+    width:20%;
+    height:25%;
+    position: relative;
+    margin-top:15%;
+    border-radius: 10px;
+
+}
+.img-bg{
+    object-fit: contain;
+    width:100%;
+    border-radius: 10px;
+}
+.card-content{
+    height:10rem;
+    text-align: center;
+}
+.card-para{
+   padding-top:70px;
+   letter-spacing: .1rem;
+   line-height: 25px;
+   font-weight: bold;
+   margin-top:-60px;
+}
+.card-stats{
+    margin-top:10px;
+    display: flex;
+    height:5rem;
+    justify-content: space-around;
+}
+.color{
+    color: hsl(0, 0%, 59%);
+    font-weight: normal;
+}
+.stats-para{
+    color: hsl(0, 0%, 59%);
+    padding:5px;
+}
+.profile-img{
+    border-radius:50%;
+    margin-left:20px;
+    margin-top:-50px;
+    position: relative;
+    border: 5px solid oldlace;
+    
+}
+.card-bg{
+    background-image: url("images/bg-pattern-card.svg");
+    border-radius: 10px;
+    height:120px;
+    
+}
+.bg-images img{
+    position: absolute;
+}
+
+.img-top{
+    height:100vh;
+    top:-350px;
+    left:-175px;
+    
+
+
+
+}
+.img-bottom{
+
+  bottom:-500px;
+  right:-175px;
+  
+  overflow: hidden;
+  object-fit: contain;
+
+}
+
